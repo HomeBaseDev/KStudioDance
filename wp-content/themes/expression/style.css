@@ -1,0 +1,481 @@
+/*
+Theme Name: Expression
+Theme URI: http://www.homebaseweb.net/
+Description: A custom theme developed by HomeBaseWeb.net targeted towards clients needing a site for performance arts.
+Version: 1.0
+Author: HomeBaseWeb.net
+Author URI: http://www.homebaseweb.net/
+Tags: expression, header, custom, sidebar, green, orange
+*/
+/*html {
+	height:100%;	
+}*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 19px;
+	color: #333333;
+	margin:0;
+	padding:0;
+	/*height:100%;*/
+}
+
+
+h1 {
+	font-size:20px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+}
+h2 {
+	font-size:15px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-shadow: 0px 0px 6px #333333;
+}
+h2 a {
+	color:#FFF;
+	text-decoration:none;
+}
+h2 a:hover {
+	color:#000;
+}
+
+h3 {
+	font-size:16px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+}
+h3 a{	
+	font-size:16px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+	text-decoration:none;
+}
+h3 a:visited{
+	font-size:16px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+	text-decoration:none;
+}
+h4 {
+	font-size:14px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+}
+h5 {
+	font-size:14px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+h6 {
+	font-size:10px;
+	margin:12px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #68B633;
+}
+
+.home {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	margin-left:23px;
+}
+
+/* List */
+
+ul {
+	/* list-style-image: url(images/bullet.jpg); commented out for compatibility */
+	list-style-type: none;
+}
+ul li {
+	color: #333333;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+}
+
+ol {
+	margin-top: 1em;
+	margin-right: 0;
+	margin-bottom: 1em;
+	margin-left: 0;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 10;
+}
+ol li {
+	color: #333333;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+	margin: 0;
+}
+
+#content ul {
+	list-style-image: url(images/bullet.jpg); commented out for compatibility 
+	list-style-type: none;
+}
+#content ul li {
+	color: #333333;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 3px;
+}
+/*Table*/
+table {
+	border-collapse:collapse;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-bottom-color: #999999;
+	border-left-color: #999999;
+}
+
+th {
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	font-weight: bold;
+	text-shadow: 0px 0px 6px #333333;
+	color: #FFFFFF;
+	border-bottom-color: #666666;
+	background-color: #95D06B;
+	text-align: left;
+}
+td {
+	padding:4px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #68B633;
+}
+tr {
+	padding:4px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FFFFFF;
+}
+
+/*Form*/
+input, select, textarea {
+	font-size:13px;
+	padding: 3px;
+	border: 1px solid #999999;
+}
+input:focus, select:focus, textarea:focus{
+	background-color: #D3E4BC;
+	border: 1px solid #68B633;
+}
+fieldset{
+    border-width:1px;
+    border-style:solid;
+    padding: 8px
+}
+textarea {width: 98%}
+
+/*/Form*/
+
+/*Buttons*/
+.button, .button:visited {
+	background: #222 url(images/alert-overlay.png) repeat-x;
+	display: inline-block;
+	padding: 2px 6px 3px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	line-height: 1;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);	
+	position: relative;
+	cursor: pointer;	
+		
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 13px;
+	background-color: #ff5c00;
+}
+	.button:hover { background-color: #d45500; color: #fff; }
+	.button:active { top: 1px; }
+	
+/*/Buttons*/
+
+/* optional rounded corners for browsers that support it */
+.hentry .entry .crop,
+.hentry .entry img,
+.commentlist li,
+.wp-caption,
+ input, select, textarea,
+.button, .button:visited {
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* LAYOUT STRUCTURE */
+
+#clear {
+	clear:both;
+}
+
+#wrapper {
+	width:990px;
+	/*margin:0 auto;*/
+	height:100%; /* IE6: treaded as min-height*/
+
+	min-height:100%; /* real browsers */
+	
+	overflow:hidden;
+}
+
+div#header_big {
+	width:100%;
+	background:url(images/header_bg_color.jpg);
+	height:122px;
+}
+
+#header {
+	width:100%;
+	height:109px;
+	background:url(images/header_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding:13px 0 0 35px;
+	margin:0 auto;
+}
+
+#header_shadow {
+	width:100%;
+	height:7px;
+	margin-bottom:-7px;
+	background:url(images/header_shadow.jpg);
+	position:relative;
+	z-index:9;
+}
+
+div#main_nav {
+	height:15px;
+	margin-bottom:-15px;
+	margin-right:275px;
+	/*margin-top:14px;*/
+	float:right;
+	position:relative;
+	z-index:11;
+	z-index:8;
+}
+
+
+
+div#main_nav ul {
+	display:inline;
+}
+
+div#main_nav ul li {
+	width:71px;
+	height:15px;
+	background-image:url(images/nav_link_bg.png);
+	background-repeat:no-repeat;
+	background-position:bottom;
+	/*display:inline;*/
+	float:left;
+	list-style-type: none;
+	text-align:center;
+	color:#FFF;
+	font-size:11px;
+	text-transform:uppercase;
+	padding-left:5px;
+}
+
+div#main_nav ul li a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+div#main_nav ul li a:hover {
+	/*color:#7F8182;*/
+	color:#000;
+}
+
+#left_sidebar {
+	width:140px;
+	height:100%;
+	background:url(images/sidebar_bg.png) right repeat-y;
+	float:left;
+	position:relative;
+	z-index:1;		
+	padding-bottom:0px;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+#left_sidebar li {
+	background:url(images/sidebar_line.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	display:block;
+	padding:6px 25px 6px 5px;
+	text-align:right;
+	margin-right:0;
+	color:#2B2B2B;
+	font-size:11px;
+	font-weight:600;
+}
+
+#left_sidebar li a {
+	color:#2B2B2B;
+	text-decoration:none;
+}
+
+#left_sidebar li a:hover {
+	color:#7F8182;
+}
+
+#main {
+	width:500px;
+	margin:35px 0 0 35px;
+	float:left;
+}
+
+#right_sidebar {
+	width:300px;
+	float:right;
+	margin:15px 0 0 0;
+}
+
+#right_sidebar #news_mid ul {
+	list-style-image: url(images/news_dot.gif);
+}
+
+#right_sidebar #news_mid ul li {
+	background:url(images/news_line.jpg);
+	background-position:bottom;
+	background-repeat:no-repeat;
+	padding:6px 25px 6px 5px;
+	text-align:left;
+	color:#FFF;
+	font-size:12px;
+	list-style-image: url(images/news_dot.gif);
+}
+
+#right_sidebar #news_mid li a {
+	color:#fff;
+	text-decoration:none;
+	
+}
+
+#right_sidebar #news_mid li a:hover {
+	color:#fff;
+	text-decoration:underline;
+	
+}
+
+#right_sidebar #news_mid li strong {
+	color:#58595B;
+	font-weight:600;
+	text-shadow:#333333;
+}
+
+#right_sidebar #news_mid li strong a {
+	color:#58595B;
+	font-weight:600;
+	text-shadow:#333333;
+}
+
+#right_sidebar #news_mid li strong a:hover{
+	text-decoration:underline;
+	color:#58595B;
+}
+
+#view_photos {
+	width:270px;
+	height:122px;
+	background:url(images/view_photos_bg.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:50px 0 0 30px;
+}
+
+/* News Section */
+
+#news_top {
+	width:300px;
+	height:26px;
+	background:url(images/news_bg_top.jpg) center no-repeat;
+}
+
+#news_mid {
+	width:236px;
+	background:url(images/news_bg_mid.jpg) center repeat-y;
+	margin-top:0;
+	padding:1px 32px;
+}
+
+#news_bot {
+	width:300px;
+	height:29px;
+	background:url(images/news_bg_bot.jpg) center no-repeat;
+	margin-bottom:45px;
+}
+
+/* end News Section */
+
+
+#footer {
+	height:30px;
+	width:100%;
+	background:url(images/footer_bg.jpg) repeat-x;
+	background-position:top;
+	padding-top:35px;
+	position:relative;
+	z-index:99;
+}
+
+#footer #wrapper {
+	font-size:11px;
+	margin-left:140px;
+	position:relative;
+	z-index:99;
+}
+
+#footer #wrapper a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#58595B;
+}
+
+#footer #wrapper a:hover {
+	text-decoration:underline;
+}
+
+#footer_grad {
+	height:50px;
+	width:100%;
+	margin-top:-50px;
+	margin-bottom:0;
+	background:url(images/footer_gradient.jpg) repeat-x;
+}
+.meta-top {
+	clear: both; /* we need this so floats in the post are cleared */
+}
+.meta-bottom {
+	clear: both; /* we need this so floats in the post are cleared */
+	padding: 10px 0px;
+}
+
+#soc_med_icons {
+	margin-top:6px;
+}

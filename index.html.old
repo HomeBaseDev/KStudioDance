@@ -1,0 +1,52 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>K Studio Dance </title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="orange_bar1">&nbsp;</div>
+<div class="orange_bar2">&nbsp;</div>
+<div class="container">
+	<div class="top">
+	  <div class="top_left">
+
+      		<p>&nbsp;<br /></p>
+            <h1> K Studio Dance</h1></div>
+	  <div class="top_mid">
+      		<p>&nbsp;<br /></p>
+      		
+      		<p>
+
+		</p>
+
+      </div>	  
+      <div class="top_right">
+      		<p><br /></p>
+            <p>
+
+            <a href="mailto:kelly@kstudiodance.com">kelly@kstudiodance.com</a></p>
+      </div>
+
+	<div class="mid">
+	  <div class="mid_left">&nbsp;</div>
+	  <div class="mid_mid">&nbsp;</div>	  
+      <div class="mid_right">&nbsp;</div>
+	</div>
+	<div class="bottom">
+	  <div class="bottom_left">&nbsp;
+	    <p>&nbsp;</p>
+	    <h1><em>Pardon the dust...</em></h1>
+
+        <p><em>...while we develop our website to showcase our new dance studio.</em></p>
+        <p><em>In the mean time, please contact Kelly for information regarding our exciting new studio and dance lessons at
+<a href="mailto:kelly@kstudiodance.com"> kelly@kstudiodance.com</a>
+</em></p>
+	  </div>
+	</div>
+</div>
+</body>
+</html>
